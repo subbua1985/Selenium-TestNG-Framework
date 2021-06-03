@@ -111,6 +111,11 @@
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
+          <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
@@ -133,6 +138,8 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+        
+
       </plugins>
     </pluginManagement>
   </build>
