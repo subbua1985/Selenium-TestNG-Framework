@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="MyLotto TestNG Framework" verbose="1" >
+
+	<listeners>
+		<listener class-name="com.mylotto.qa.extentreport.ExtentReportMyLotto" />
+	</listeners>
+
+ 
+  <test name="Regression">
+    <classes>
+      <class name="com.mylotto.qa.testcases.RegistrationMyLotto"/>
+    </classes>
+  </test>
+</suite>
+
+
