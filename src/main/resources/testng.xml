@@ -2,6 +2,8 @@
   
 <suite name="MyLotto TestNG Framework" verbose="1" >
 
+	<!-- Extent Report Listener config below -->
+	
 	<listeners>
 		<listener class-name="com.mylotto.qa.extentreport.ExtentReportMyLotto" />
 	</listeners>
