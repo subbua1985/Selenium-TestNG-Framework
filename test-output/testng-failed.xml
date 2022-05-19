@@ -5,7 +5,7 @@
     <classes>
       <class name="com.mylotto.qa.testcases.RegistrationMyLotto">
         <methods>
-          <include name="RegistrationForm" invocation-numbers="1"/>
+          <include name="RegistrationForm" invocation-numbers="0 1"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>

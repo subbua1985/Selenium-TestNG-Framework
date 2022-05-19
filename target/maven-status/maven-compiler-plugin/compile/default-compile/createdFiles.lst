@@ -1,8 +1,8 @@
+com\mylotto\qa\util\WebEventListener.class
+com\mylotto\qa\pages\Lotto.class
 com\mylotto\qa\pages\Keno.class
 com\mylotto\qa\pages\Registration.class
-com\mylotto\qa\util\WebEventListener.class
 com\mylotto\qa\pages\LoginPage.class
 com\mylotto\qa\util\TestUtil.class
 com\mylotto\qa\extentreport\ExtentReportMyLotto.class
 com\mylotto\qa\base\TestBase.class
-com\mylotto\qa\pages\Lotto.class

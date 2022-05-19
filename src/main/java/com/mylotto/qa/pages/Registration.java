@@ -1,7 +1,8 @@
 package com.mylotto.qa.pages;
 
 import java.io.IOException;
-
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -9,66 +10,90 @@ import org.openqa.selenium.support.PageFactory;
 import com.mylotto.qa.base.TestBase;
 
 public class Registration extends TestBase {
-	
-	//Objects
-	
-	@FindBy(id="nav-menu-account--text")
+
+	// Objects
+
+	@FindBy(id = "nav-menu-main-signup-link")
 	WebElement LoginButton;
-	
-	@FindBy(id="rightMenuNavMenuLoginBlockLoginButton")
+
+	@FindBy(id = "login-modal-signup")
 	WebElement rightLoginButton;
-	
-	@FindBy(id="rightMenuNavMenuLoginBlockRegisterButton")
+
+	@FindBy(xpath = "/html/body/div[1]/div/div/div[1]/div[4]/div/ul/li/button")
 	WebElement regButton;
-	
-	@FindBy(id="emailAddress")
+
+	@FindBy(id = "email")
 	WebElement emailInput;
-	
-	@FindBy(id="firstName")
+
+	@FindBy(id = "password")
+	WebElement passInput;
+
+	@FindBy(name = "password2")
+	WebElement cpassInput;
+
+	@FindBy(name = "firstName")
 	WebElement firstInput;
 
-	
-	@FindBy(id="lastName")
+	@FindBy(name = "lastName")
 	WebElement lastInput;
-	
-	@FindBy(id="password")
-	WebElement passInput;
-	
-	@FindBy(id="confirm-password")
-	WebElement cpassInput;
-	
-	@FindBy(id="dobDay")
+
+	@FindBy(name = "dobDay")
 	WebElement dayInput;
-	
-	@FindBy(id="dobMonth")
+
+	@FindBy(name = "dobMonth")
 	WebElement monthInput;
-	
-	@FindBy(id="dobYear")
+
+	@FindBy(name = "dobYear")
 	WebElement yearInput;
 
-	@FindBy(id="maleCheckboxLabel")
+	@FindBy(id = "label-male")
 	WebElement maleInput;
-	
-	
-	public Registration() throws IOException{
+
+	@FindBy(id = "femaleCheckboxLabel")
+	WebElement femaleInput;
+
+	@FindBy(id = "mobileNetwork")
+	WebElement mob_net;
+
+	@FindBy(id = "mobilePhoneNumber")
+	WebElement mob_no;
+
+	@FindBy(name = "location")
+	WebElement loc;
+
+	@FindBy(name = "city")
+	WebElement city;
+
+	public Registration() throws IOException {
 		PageFactory.initElements(driver, this);
-		
+
 	}
-	
-	
-	//For Excel Sheet Data Provider
-	//Actions in the Registration page, but using Data Provider concept to retrieve data from TestData.xlsx
-	
-	public void RegistrationFormExcelSheet(String email,String fistname, String lastname, String password, String cpassword) throws InterruptedException {
+
+	// For Excel Sheet Data Provider
+	// Actions in the Registration page, but using Data Provider concept to retrieve
+	// data from TestData.xlsx
+
+	public void RegistrationFormExcelSheet(String email, String fistname, String lastname, String password,
+			String cpassword, String dob_date, String dob_year, String mobile) throws InterruptedException {
 		LoginButton.click();
 		regButton.click();
 		emailInput.sendKeys(email);
-		firstInput.sendKeys(fistname);
-		lastInput.sendKeys(lastname);
 		passInput.sendKeys(password);
 		cpassInput.sendKeys(cpassword);
+		firstInput.sendKeys(fistname);
+		lastInput.sendKeys(lastname);
+		dayInput.sendKeys(dob_date);
+		Select dob_month = new Select(driver.findElement(By.name("dobMonth")));
+		dob_month.selectByVisibleText("September");
+		yearInput.sendKeys(dob_year);
 		maleInput.click();
-		Thread.sleep(5000);
-		
+		mob_no.sendKeys(mobile);
+		Select loc = new Select(driver.findElement(By.name("location")));
+		loc.selectByVisibleText("Marlborough");
+		Select p_city = new Select(driver.findElement(By.name("city")));
+		p_city.selectByVisibleText("Marlborough");
+		 Thread.sleep(1000);
+		 
+
 	}
 }

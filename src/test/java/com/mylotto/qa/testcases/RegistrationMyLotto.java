@@ -23,7 +23,6 @@ String sheetName = "Reg"; //Reg is the name of the first sheet given in the Test
 	}
 
 	
-
 	@DataProvider     //Data Provider will be the priority during compile, than @BeforeMethod 
 	public Object[][] getTestData() {
 		Object data[][] = TestUtil.getTestData(sheetName); //getTestData is the method in TestUtil.java package that got xlsx reading algorithm
@@ -39,15 +38,17 @@ String sheetName = "Reg"; //Reg is the name of the first sheet given in the Test
 	@Test(priority=1, dataProvider="getTestData") //Provides all the TestData from the sheet (getTestData)
 	
 	//Below RegistrationForm method must match with the number of columns including column names in the test data file TestData.xlsx
-	public void RegistrationForm(String email, String fistname, String lastname, String password, String cpassword) throws IOException, InterruptedException {
+	public void RegistrationForm(String email,String fistname, String lastname, String password, String cpassword, String dob_date, String dob_year, String mobile) throws IOException, InterruptedException {
 		Registration reg = new Registration();
-		reg.RegistrationFormExcelSheet(email, fistname, lastname, password, cpassword);
+		reg.RegistrationFormExcelSheet(email, fistname, lastname, password, cpassword, dob_date, dob_year, mobile);
 		System.out.println("I am in RegistrationForm");
 		System.out.println(email +"  via csv");
 		System.out.println(fistname +"  via csv");
 		System.out.println(lastname +"  via csv");
 		System.out.println(password +"  via csv");
 		System.out.println(cpassword +"  via csv");
+		System.out.println(mobile +"  via csv");
+		Thread.sleep(2000);
 	}
 	
 

@@ -1,8 +1,10 @@
 C:\Users\sayyanar\eclipse-workspace\MyLotto\src\main\java\com\mylotto\qa\base\TestBase.java
 C:\Users\sayyanar\eclipse-workspace\MyLotto\src\main\java\com\mylotto\qa\pages\Keno.java
+C:\Users\sayyanar\eclipse-workspace\MyLotto\src\main\java\com\mylotto\qa\pages\Bullseye.java
 C:\Users\sayyanar\eclipse-workspace\MyLotto\src\main\java\com\mylotto\qa\pages\Lotto.java
 C:\Users\sayyanar\eclipse-workspace\MyLotto\src\main\java\com\mylotto\qa\util\TestUtil.java
 C:\Users\sayyanar\eclipse-workspace\MyLotto\src\main\java\com\mylotto\qa\util\WebEventListener.java
 C:\Users\sayyanar\eclipse-workspace\MyLotto\src\main\java\com\mylotto\qa\extentreport\ExtentReportMyLotto.java
+C:\Users\sayyanar\eclipse-workspace\MyLotto\src\main\java\com\mylotto\qa\pages\Strike.java
 C:\Users\sayyanar\eclipse-workspace\MyLotto\src\main\java\com\mylotto\qa\pages\Registration.java
 C:\Users\sayyanar\eclipse-workspace\MyLotto\src\main\java\com\mylotto\qa\pages\LoginPage.java

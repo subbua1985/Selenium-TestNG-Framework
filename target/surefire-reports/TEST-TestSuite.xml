@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="38.96" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="84.51" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin"/>
-    <property name="sun.java.command" value="C:\Users\sayyanar\AppData\Local\Temp\surefire16680036308661328293\surefirebooter2724111967640423217.jar C:\Users\sayyanar\AppData\Local\Temp\surefire16680036308661328293 2022-05-12T19-34-36_793-jvmRun1 surefire17550794999490723331tmp surefire_08099439678931106092tmp"/>
+    <property name="sun.java.command" value="C:\Users\sayyanar\AppData\Local\Temp\surefire17858805691173114880\surefirebooter12655285362287182256.jar C:\Users\sayyanar\AppData\Local\Temp\surefire17858805691173114880 2022-05-20T11-31-52_141-jvmRun1 surefire15376709016456706197tmp surefire_09925104599300263759tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\sayyanar\eclipse-workspace\MyLotto\target\test-classes;C:\Users\sayyanar\eclipse-workspace\MyLotto\target\classes;C:\Users\sayyanar\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\sayyanar\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\sayyanar\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\sayyanar\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\sayyanar\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\sayyanar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\sayyanar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\sayyanar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\sayyanar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\sayyanar\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\sayyanar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\sayyanar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\sayyanar\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\sayyanar\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\sayyanar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sayyanar\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\sayyanar\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sayyanar\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sayyanar\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sayyanar\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sayyanar\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sayyanar\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\sayyanar\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\sayyanar\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\sayyanar\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\sayyanar\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\sayyanar\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\sayyanar\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\sayyanar\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\sayyanar\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\sayyanar\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\sayyanar\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\sayyanar\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\sayyanar\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\sayyanar\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\sayyanar\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\sayyanar\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sayyanar\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\sayyanar\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\sayyanar\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\sayyanar\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\sayyanar\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\sayyanar\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\sayyanar\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\sayyanar\AppData\Local\Temp\surefire16680036308661328293\surefirebooter2724111967640423217.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\sayyanar\AppData\Local\Temp\surefire17858805691173114880\surefirebooter12655285362287182256.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
@@ -53,13 +53,52 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/sayyanar/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin/server;C:/Users/sayyanar/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.10\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Users\sayyanar\AppData\Local\Microsoft\WindowsApps;C:\Users\sayyanar\AppData\Roaming\npm;;C:\Users\sayyanar\Desktop;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/sayyanar/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin/server;C:/Users/sayyanar/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.10\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Users\sayyanar\AppData\Local\Microsoft\WindowsApps;C:\Users\sayyanar\AppData\Roaming\npm;;C:\WINDOWS\System32;;."/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vm.version" value="11.0.10+8-LTS-162"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="RegistrationForm" classname="com.mylotto.qa.testcases.RegistrationMyLotto" time="8.534"/>
-  <testcase name="RegistrationForm" classname="com.mylotto.qa.testcases.RegistrationMyLotto" time="8.001"/>
+  <testcase name="RegistrationForm" classname="com.mylotto.qa.testcases.RegistrationMyLotto" time="2.97">
+    <failure message="target frame detached&#10;  (Session info: chrome=101.0.4951.67)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LNZLT079&apos;, ip: &apos;192.168.202.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\sayyanar\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: bb924456fbd16cb354620a5b4d9c24e3" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+target frame detached
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LNZLT079', ip: '192.168.202.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\sayyanar\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bb924456fbd16cb354620a5b4d9c24e3
+	at com.mylotto.qa.testcases.RegistrationMyLotto.RegistrationForm(RegistrationMyLotto.java:43)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://2.cat.mylotto.co.nz/'
+Navigated to:'https://2.cat.mylotto.co.nz/'
+Trying to find Element By : By.id: nav-menu-main-signup-link
+Found Element By : By.id: nav-menu-main-signup-link
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (bb924456fbd16cb354620a5b4d9c24e3)] -> id: nav-menu-main-signup-link]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (bb924456fbd16cb354620a5b4d9c24e3)] -> id: nav-menu-main-signup-link]
+Trying to find Element By : By.xpath: /html/body/div[1]/div/div/div[1]/div[4]/div/ul/li/button
+Found Element By : By.xpath: /html/body/div[1]/div/div/div[1]/div[4]/div/ul/li/button
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (bb924456fbd16cb354620a5b4d9c24e3)] -> xpath: /html/body/div[1]/div/div/div[1]/div[4]/div/ul/li/button]
+Exception occured: org.openqa.selenium.WebDriverException: target frame detached
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LNZLT079', ip: '192.168.202.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\sayyanar\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bb924456fbd16cb354620a5b4d9c24e3
+C:\Users\sayyanar\eclipse-workspace\MyLotto
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 4852
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 20, 2022 11:31:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="RegistrationForm" classname="com.mylotto.qa.testcases.RegistrationMyLotto" time="9.627"/>
+  <testcase name="RegistrationForm" classname="com.mylotto.qa.testcases.RegistrationMyLotto" time="9.741"/>
+  <testcase name="RegistrationForm" classname="com.mylotto.qa.testcases.RegistrationMyLotto" time="10.117"/>
+  <testcase name="RegistrationForm" classname="com.mylotto.qa.testcases.RegistrationMyLotto" time="9.731"/>
 </testsuite>
