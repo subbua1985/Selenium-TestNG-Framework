@@ -1,15 +1,26 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 84.51 s <<< FAILURE! - in TestSuite
-RegistrationForm(com.mylotto.qa.testcases.RegistrationMyLotto)  Time elapsed: 2.97 s  <<< FAILURE!
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 82.936 s <<< FAILURE! - in TestSuite
+RegistrationForm(com.mylotto.qa.testcases.RegistrationMyLotto)  Time elapsed: 3.081 s  <<< FAILURE!
 org.openqa.selenium.WebDriverException: 
 target frame detached
   (Session info: chrome=101.0.4951.67)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LNZLT079', ip: '192.168.202.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\sayyanar\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bb924456fbd16cb354620a5b4d9c24e3
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\sayyanar\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 841c31ab4bae8651b1387874ff549c59
+	at com.mylotto.qa.testcases.RegistrationMyLotto.RegistrationForm(RegistrationMyLotto.java:43)
+
+RegistrationForm(com.mylotto.qa.testcases.RegistrationMyLotto)  Time elapsed: 3.101 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+target frame detached
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LNZLT079', ip: '192.168.202.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\sayyanar\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 178e08c8fcd161e2d4f0f7d2e3895c1f
 	at com.mylotto.qa.testcases.RegistrationMyLotto.RegistrationForm(RegistrationMyLotto.java:43)
 
