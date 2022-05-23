@@ -20,6 +20,7 @@ public class Registration extends TestBase {
 	WebElement rightLoginButton;
 
 	@FindBy(xpath = "/html/body/div[1]/div/div/div[1]/div[4]/div/ul/li/button")
+	
 	WebElement regButton;
 
 	@FindBy(id = "email")
