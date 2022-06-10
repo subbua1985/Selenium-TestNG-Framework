@@ -1,5 +1,5 @@
 /*
- * Author: Subramani.Ayyanar@lottonz.co.nz.
+ * Author: Subramani.Ayyanar@lottonz.co
  */
 package com.mylotto.qa.testcases;
 

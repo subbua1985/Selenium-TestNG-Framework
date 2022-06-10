@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [MyLotto TestNG Framework]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.mylotto.qa.extentreport.ExtentReportMyLotto"/>
+  </listeners>
   <test thread-count="5" name="Regression(failed)">
     <classes>
-      <class name="com.mylotto.qa.testcases.RegistrationTest">
+      <class name="com.mylotto.qa.testcases.RegistrationMyLotto">
         <methods>
-          <include name="tearDown"/>
-          <include name="RegistrationForm"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.mylotto.qa.testcases.RegistrationTest -->
-      <class name="com.mylotto.qa.testcases.LoginTest">
-        <methods>
-          <include name="loginTestMyLotto"/>
-          <include name="validateLoginPageTitle"/>
+          <include name="RegistrationForm" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.mylotto.qa.testcases.LoginTest -->
+      </class> <!-- com.mylotto.qa.testcases.RegistrationMyLotto -->
     </classes>
   </test> <!-- Regression(failed) -->
 </suite> <!-- Failed suite [MyLotto TestNG Framework] -->

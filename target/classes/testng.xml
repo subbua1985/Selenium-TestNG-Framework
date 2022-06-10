@@ -4,10 +4,10 @@
 
 	<!-- Extent Report Listener config below -->
 	
-	<listeners>
-		<listener class-name="com.mylotto.qa.extentreport.ExtentReportMyLotto" />
-	</listeners>
 
+  	<listeners>
+		<listener class-name="com.mylotto.qa.extentreport.ExtentReportMyLotto"/>
+	</listeners>
  
   <test name="Regression">
     <classes>
