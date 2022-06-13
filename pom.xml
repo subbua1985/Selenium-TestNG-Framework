@@ -122,27 +122,9 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.0.0-M7</version>
           <configuration>
-          <properties>
-            <property>
-              <name>usedefaultlisteners</name>
-              <value>false</value> <!-- disabling default listeners is optional -->
-            </property>          
-            <property>
-              <name>listener</name>
-              <value>com.mylotto.qa.extentreport.ExtentReportMyLotto</value>
-            </property>
-            
-            <!--  <property>
-              <name>reporter</name>
-              <value>listenReport.Reporter</value>
-            </property>  -->        
-            
-            </properties>
           <suiteXmlFiles>
             <suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>
           </suiteXmlFiles>
-   
-        
         </configuration>
         </plugin>
 
