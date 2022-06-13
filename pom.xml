@@ -26,7 +26,7 @@
         <version>7.4.0</version>
         <scope>compile</scope>
    </dependency>
-
+   
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
@@ -86,7 +86,14 @@
    		 <artifactId>extentreports</artifactId>
    		 <version>2.41.2</version>
 	 </dependency>
-      
+     
+     <dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.9</version>
+	</dependency>
+
+ 
 </dependencies>
 
 <!-- Below tags are coming by default, nothing to worry about -->
@@ -113,11 +120,29 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.22.1</version>
+          <version>3.0.0-M7</version>
           <configuration>
+          <properties>
+            <property>
+              <name>usedefaultlisteners</name>
+              <value>false</value> <!-- disabling default listeners is optional -->
+            </property>          
+            <property>
+              <name>listener</name>
+              <value>com.mylotto.qa.extentreport.ExtentReportMyLotto</value>
+            </property>
+            
+            <!--  <property>
+              <name>reporter</name>
+              <value>listenReport.Reporter</value>
+            </property>  -->        
+            
+            </properties>
           <suiteXmlFiles>
             <suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>
           </suiteXmlFiles>
+   
+        
         </configuration>
         </plugin>
 

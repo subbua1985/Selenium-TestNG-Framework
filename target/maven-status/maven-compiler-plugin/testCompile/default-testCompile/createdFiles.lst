@@ -1,2 +1,3 @@
+com\mylotto\qa\testcases\LottoDips.class
 com\mylotto\qa\testcases\RegistrationMyLotto.class
 com\mylotto\qa\testcases\LoginTest.class

@@ -1,61 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-10T18:11:51 NZST" name="Default suite" finished-at="2022-06-10T18:12:41 NZST" duration-ms="50712">
+  <suite started-at="2022-06-13T11:46:45 NZST" name="MyLotto TestNG Framework" finished-at="2022-06-13T11:47:03 NZST" duration-ms="18159">
     <groups>
     </groups>
-    <test started-at="2022-06-10T18:11:51 NZST" name="Default test" finished-at="2022-06-10T18:12:41 NZST" duration-ms="50712">
-      <class name="com.mylotto.qa.testcases.LottoDips">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mylotto.qa.testcases.LottoDips@732c2a62]" started-at="2022-06-10T18:11:52 NZST" name="setup" finished-at="2022-06-10T18:11:59 NZST" duration-ms="7217" status="PASS">
+    <test started-at="2022-06-13T11:46:45 NZST" name="Regression" finished-at="2022-06-13T11:47:03 NZST" duration-ms="18159">
+      <class name="com.mylotto.qa.testcases.RegistrationMyLotto">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mylotto.qa.testcases.RegistrationMyLotto@272ed83b]" started-at="2022-06-13T11:46:46 NZST" name="setup" finished-at="2022-06-13T11:46:51 NZST" duration-ms="4981" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginDetails(java.lang.String,java.lang.String)[pri:1, instance:com.mylotto.qa.testcases.LottoDips@732c2a62]" started-at="2022-06-10T18:11:59 NZST" name="LoginDetails" data-provider="getTestData" finished-at="2022-06-10T18:12:16 NZST" duration-ms="17638" status="PASS">
+        <test-method signature="RegistrationForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.mylotto.qa.testcases.RegistrationMyLotto@272ed83b]" started-at="2022-06-13T11:46:51 NZST" name="RegistrationForm" data-provider="getTestData" finished-at="2022-06-13T11:47:02 NZST" duration-ms="10849" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[a.robinson@xtra.co.nz]]>
+                <![CDATA[a.subbu1984@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
+                <![CDATA[Subramani]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ayyanar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
                 <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[`1963]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4123321]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mylotto.qa.testcases.LottoDips@732c2a62]" started-at="2022-06-10T18:12:16 NZST" name="tearDown" finished-at="2022-06-10T18:12:18 NZST" duration-ms="1141" status="PASS">
+        </test-method> <!-- RegistrationForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mylotto.qa.testcases.RegistrationMyLotto@272ed83b]" started-at="2022-06-13T11:47:02 NZST" name="tearDown" finished-at="2022-06-13T11:47:03 NZST" duration-ms="1274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mylotto.qa.testcases.LottoDips@732c2a62]" started-at="2022-06-10T18:12:18 NZST" name="setup" finished-at="2022-06-10T18:12:23 NZST" duration-ms="5244" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="LoginDetails(java.lang.String,java.lang.String)[pri:1, instance:com.mylotto.qa.testcases.LottoDips@732c2a62]" started-at="2022-06-10T18:12:23 NZST" name="LoginDetails" data-provider="getTestData" finished-at="2022-06-10T18:12:41 NZST" duration-ms="17727" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[brookswhanau@xtra.co.nz]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mylotto.qa.testcases.LottoDips@732c2a62]" started-at="2022-06-10T18:12:41 NZST" name="tearDown" finished-at="2022-06-10T18:12:41 NZST" duration-ms="986" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mylotto.qa.testcases.LottoDips -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.mylotto.qa.testcases.RegistrationMyLotto -->
+    </test> <!-- Regression -->
+  </suite> <!-- MyLotto TestNG Framework -->
 </testng-results>
