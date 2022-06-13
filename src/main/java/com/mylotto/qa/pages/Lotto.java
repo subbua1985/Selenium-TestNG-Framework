@@ -24,6 +24,13 @@ public class Lotto extends TestBase {
 	@FindBy(id = "Lucky-Dip-5-6")
 	WebElement LinesLuckyDip56;
 
+	@FindBy(id = "Lucky-Dip-7")
+	WebElement LinesLuckyDip7;
+	
+	@FindBy(id = "Lucky-Dip-10-5")
+	WebElement LinesLuckyDip105;
+	
+	
 	@FindBy(id = "password")
 	WebElement loginPass;
 
@@ -50,13 +57,13 @@ public class Lotto extends TestBase {
 		driver.navigate().to("https://2.cat.mylotto.co.nz/#login");
 		loginEmail.sendKeys(player_email);
 		loginPass.sendKeys(player_password);
-		//loginButton.click();
 		driver.findElement(By.cssSelector(".lnzfdn-button.lnzfdn-button--fill")).click();
 		Thread.sleep(5000);		
 	}
 
 	
-	public void lottoDips() throws InterruptedException {		
+	public void lottoLuckyDips() throws InterruptedException {	
+		//Lucky Dip $5.60
 	   	driver.navigate().to("https://2.cat.mylotto.co.nz/lotto/dips");
 	   	LinesLuckyDip56.click();
 	   	buyButton.click();
@@ -64,6 +71,27 @@ public class Lotto extends TestBase {
 		confirmPurchase.click();
 		Thread.sleep(4000);		
 		boolean b = driver.findElement(By.className("lnz-thanks-page__thanks-header-text")).isDisplayed();
+		System.out.println("Wager Success based on above boolean");
+		
+		
+		//Lucky Dip $5.60
+		driver.navigate().to("https://2.cat.mylotto.co.nz/lotto/dips");
+		LinesLuckyDip7.click();
+	   	buyButton.click();
+		Thread.sleep(4000);
+		confirmPurchase.click();
+		Thread.sleep(4000);		
+		boolean c = driver.findElement(By.className("lnz-thanks-page__thanks-header-text")).isDisplayed();
+		System.out.println("Wager Success based on above boolean");
+		
+		//Lucky Dip $5.60
+		driver.navigate().to("https://2.cat.mylotto.co.nz/lotto/dips");
+		LinesLuckyDip105.click();
+	   	buyButton.click();
+		Thread.sleep(4000);
+		confirmPurchase.click();
+		Thread.sleep(4000);		
+		boolean d = driver.findElement(By.className("lnz-thanks-page__thanks-header-text")).isDisplayed();
 		System.out.println("Wager Success based on above boolean");
 	}
 

@@ -42,7 +42,7 @@ String sheetName = "Players"; //Players is the name of the sheet available in th
 		
 		Lotto lot = new Lotto();
 		lot.LoginForm(player_email,player_password);
-		lot.lottoDips();
+		lot.lottoLuckyDips();
 	}
 	
 	/*
