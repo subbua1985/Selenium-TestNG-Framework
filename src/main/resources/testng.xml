@@ -3,14 +3,16 @@
 <suite name="MyLotto TestNG Framework" verbose="1" >
 
 	<!-- Extent Report Listener config below -->
+	<!-- RetryLogic listener below is to retry for 1 time if any test cases are failed during execution (Run Time)-->
 	
   	<listeners>
 		<listener class-name="com.mylotto.qa.extentreport.ExtentReportMyLotto"/>
+		<listener class-name="com.mylotto.qa.util.RetryLogic"/>
 	</listeners>
 
   <test name="Regression">
     <classes>
-      <!-- <class name="com.mylotto.qa.testcases.RegistrationMyLotto"/> -->
+      <class name="com.mylotto.qa.testcases.RegistrationMyLotto"/>
       <class name="com.mylotto.qa.testcases.LottoDips"/>
     </classes>
   </test>
