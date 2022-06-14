@@ -38,11 +38,11 @@ String sheetName = "Players"; //Players is the name of the sheet available in th
 	@Test(priority=1, dataProvider="getTestData") //Provides all the TestData from the sheet (getTestData)
 	
 	//Below LoginAndDips method must match with the number of columns including column names in the test data file TestData.xlsx
-	public void LoginAndDips(String player_email, String player_password) throws IOException, InterruptedException {
+	public void LoginAndLottoDips(String player_email, String player_password) throws IOException, InterruptedException {
 		
 		Lotto lot = new Lotto();
 		lot.LoginForm(player_email,player_password);
-		//lot.lottoLuckyDips();
+		lot.lottoLuckyDips();
 		lot.lottoTripleDips();
 	}
 	

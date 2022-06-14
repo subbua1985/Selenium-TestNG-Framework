@@ -20,7 +20,6 @@ public class Lotto extends TestBase {
 	@FindBy(id = "button-buy")
 	WebElement buyButton;
 	
-	
 	@FindBy(id = "Lucky-Dip-5-6")
 	WebElement LinesLuckyDip56;
 
@@ -39,19 +38,14 @@ public class Lotto extends TestBase {
 	@FindBy(id = "Triple-Dip-20")
 	WebElement TripleDip20;
 	
-	
-	
 	@FindBy(id = "password")
 	WebElement loginPass;
-
 	
 	@FindBy(name = "email")
 	WebElement loginEmail;
 	
-	
 	@FindBy(name = "login-form-login-button")
 	WebElement loginButton;
-	
 	
 	@FindBy(id = "confirmation-button")
 	WebElement confirmPurchase;
@@ -106,7 +100,7 @@ public class Lotto extends TestBase {
 	}
 
 	public void lottoTripleDips() throws InterruptedException {	
-		//Triple Dip $16.0
+		//Triple Dip $16
 	   	driver.navigate().to("https://2.cat.mylotto.co.nz/lotto/dips");
 	   	TripleDip16.click();
 	   	buyButton.click();
@@ -116,7 +110,7 @@ public class Lotto extends TestBase {
 		boolean e = driver.findElement(By.className("lnz-thanks-page__thanks-header-text")).isDisplayed();
 		System.out.println("Wager Success based on above boolean");
 
-		//Triple Dip $16.0
+		//Triple Dip $18
 	   	driver.navigate().to("https://2.cat.mylotto.co.nz/lotto/dips");
 	   	TripleDip18.click();
 	   	buyButton.click();
@@ -126,7 +120,7 @@ public class Lotto extends TestBase {
 		boolean f = driver.findElement(By.className("lnz-thanks-page__thanks-header-text")).isDisplayed();
 		System.out.println("Wager Success based on above boolean");
 		
-		//Triple Dip $16.0
+		//Triple Dip $20
 	   	driver.navigate().to("https://2.cat.mylotto.co.nz/lotto/dips");
 	   	TripleDip20.click();
 	   	buyButton.click();
