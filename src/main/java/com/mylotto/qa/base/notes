@@ -1,0 +1,72 @@
+TestNG:
+-------
+
+TDD Framework -- Test Driven Development
+
+TestNG - Unit test framework useful for developers
+Purpose of TestNG -- design test cases in a systematic way
+- good html reporting
+- variety of annotations
+- priorities or sequence of test cases can be defined
+- dependecies
+- grouping
+- data provider (multiple users simulation)
+
+TestNG is open source and available in the form of JAR file (testNG.jar)
+Also called as "Java unit testing framework"
+
+install testNG in eclipse - Just follow the below link
+
+https://testng.org/doc/download.html
+
+
+Code syntax of TestNG
+---------------------
+Pre-Condition - starts with @Before
+Test Cases  -- starts with @Test
+Post Conditions  -- starts with @
+
+Page Object Model:
+-------------------
+
+POM is not a framework, its simply a approach. We will use data driven framework (TestNG)
+Every page as individual java class, java class will have all web objects 
+Methods have to created
+
+Layers
+------
+
+TestBase.java is the parent class will have global methods which can be used by the child classes in 1st layer & send layer (eg Webdriver(), maxwindow(), implicit wait(), deleteAllCookies())
+config.properties - Define environment variables (eg URL, usernames, environments etc.,)
+TestData.xlsx
+TestUtil.java (eg Screehshots(), sendmail(), commonUtils())
+Generate Reports (HTML, XML, testNG reports, extent reports)
+
+All are defined in a package
+com.qa.pages
+1st Layer - Page Layer (all different pages in separate java class eg login, registration, lotto, bullseye, results) will inherit global methods from TestBase.java
+
+com.qa.tests
+2nd Layer - Test Layer (all test java class which implements page objects) using testNG framework will also inherit global methods from TestBase.java
+
+all are under package
+---------------------
+com.qa.base
+com.qa.pages
+com.qa.tests
+com.qa.config
+com.qa.testdata
+com.qa.util
+com.qa.report
+
+
+Maven
+------
+
+Maven is a build automation tool
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------

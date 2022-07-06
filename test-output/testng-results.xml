@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="2" ignored="0" total="5" passed="1" failed="2" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-14T16:25:51 NZST" name="MyLotto TestNG Framework" finished-at="2022-06-14T16:27:53 NZST" duration-ms="122480">
+  <suite started-at="2022-07-07T11:33:04 NZST" name="MyLotto TestNG Framework" finished-at="2022-07-07T11:35:41 NZST" duration-ms="156502">
     <groups>
     </groups>
-    <test started-at="2022-06-14T16:25:51 NZST" name="Regression" finished-at="2022-06-14T16:27:53 NZST" duration-ms="122480">
+    <test started-at="2022-07-07T11:33:04 NZST" name="Regression" finished-at="2022-07-07T11:35:41 NZST" duration-ms="156502">
       <class name="com.mylotto.qa.testcases.RegistrationMyLotto">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mylotto.qa.testcases.RegistrationMyLotto@1613674b]" started-at="2022-06-14T16:25:51 NZST" name="setup" finished-at="2022-06-14T16:25:58 NZST" duration-ms="6304" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mylotto.qa.testcases.RegistrationMyLotto@4e096385]" started-at="2022-07-07T11:33:05 NZST" name="setup" finished-at="2022-07-07T11:33:10 NZST" duration-ms="4652" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="RegistrationForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.mylotto.qa.testcases.RegistrationMyLotto@1613674b]" started-at="2022-06-14T16:25:58 NZST" name="RegistrationForm" data-provider="getTestData" finished-at="2022-06-14T16:26:05 NZST" duration-ms="7618" status="PASS">
+        <test-method signature="RegistrationForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.mylotto.qa.testcases.RegistrationMyLotto@4e096385]" started-at="2022-07-07T11:33:10 NZST" name="RegistrationForm" data-provider="getTestData" finished-at="2022-07-07T11:33:19 NZST" duration-ms="9368" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[a.subbu1984@gmail.com]]>
+                <![CDATA[test4@gmail.com]]>
               </value>
             </param>
             <param index="1">
@@ -57,421 +57,175 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegistrationForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mylotto.qa.testcases.RegistrationMyLotto@1613674b]" started-at="2022-06-14T16:26:05 NZST" name="tearDown" finished-at="2022-06-14T16:26:06 NZST" duration-ms="943" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mylotto.qa.testcases.RegistrationMyLotto@4e096385]" started-at="2022-07-07T11:33:19 NZST" name="tearDown" finished-at="2022-07-07T11:33:20 NZST" duration-ms="1093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mylotto.qa.testcases.RegistrationMyLotto@4e096385]" started-at="2022-07-07T11:33:20 NZST" name="setup" finished-at="2022-07-07T11:33:24 NZST" duration-ms="3842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="RegistrationForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.mylotto.qa.testcases.RegistrationMyLotto@4e096385]" started-at="2022-07-07T11:33:24 NZST" name="RegistrationForm" data-provider="getTestData" finished-at="2022-07-07T11:33:33 NZST" duration-ms="9460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Subramani]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ayyanar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[`1964]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4123322]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mylotto.qa.testcases.RegistrationMyLotto@4e096385]" started-at="2022-07-07T11:33:33 NZST" name="tearDown" finished-at="2022-07-07T11:33:35 NZST" duration-ms="1150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mylotto.qa.testcases.RegistrationMyLotto -->
-      <class name="com.mylotto.qa.testcases.LottoDips">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mylotto.qa.testcases.LottoDips@fba92d3]" started-at="2022-06-14T16:26:06 NZST" name="setup" finished-at="2022-06-14T16:26:11 NZST" duration-ms="5150" status="PASS">
+      <class name="com.mylotto.qa.testcases.EmailActivation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mylotto.qa.testcases.EmailActivation@fa49800]" started-at="2022-07-07T11:33:35 NZST" name="setup" finished-at="2022-07-07T11:33:42 NZST" duration-ms="6882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="LoginAndLottoDips(java.lang.String,java.lang.String)[pri:1, instance:com.mylotto.qa.testcases.LottoDips@fba92d3]" started-at="2022-06-14T16:26:11 NZST" name="LoginAndLottoDips" data-provider="getTestData" finished-at="2022-06-14T16:26:31 NZST" duration-ms="20056" status="SKIP">
+        <test-method signature="SearchAndActivation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.mylotto.qa.testcases.EmailActivation@fa49800]" started-at="2022-07-07T11:33:42 NZST" name="SearchAndActivation" data-provider="getTestData" finished-at="2022-07-07T11:34:53 NZST" duration-ms="71480" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[a.robinson@xtra.co.nz]]>
+                <![CDATA[test4@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
+                <![CDATA[Subramani]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ayyanar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
                 <![CDATA[Password1]]>
               </value>
             </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[`1963]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4123321]]>
+              </value>
+            </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LNZLT079', ip: '192.168.194.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\sayyanar\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64237}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c6365541c0f4a39da9ad4708d8118496
-*** Element info: {Using=name, value=email}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LNZLT079', ip: '192.168.194.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\sayyanar\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64237}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c6365541c0f4a39da9ad4708d8118496
-*** Element info: {Using=name, value=email}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at com.sun.proxy.$Proxy11.findElement(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy15.click(Unknown Source)
-at com.mylotto.qa.pages.Lotto.lottoLuckyDips(Lotto.java:74)
-at com.mylotto.qa.testcases.LottoDips.LoginAndLottoDips(LottoDips.java:45)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginAndLottoDips -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mylotto.qa.testcases.LottoDips@fba92d3]" started-at="2022-06-14T16:26:31 NZST" name="tearDown" finished-at="2022-06-14T16:26:32 NZST" duration-ms="1085" status="PASS">
+        </test-method> <!-- SearchAndActivation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mylotto.qa.testcases.EmailActivation@fa49800]" started-at="2022-07-07T11:34:53 NZST" name="tearDown" finished-at="2022-07-07T11:34:54 NZST" duration-ms="1252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mylotto.qa.testcases.LottoDips@fba92d3]" started-at="2022-06-14T16:26:33 NZST" name="setup" finished-at="2022-06-14T16:26:38 NZST" duration-ms="5548" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mylotto.qa.testcases.EmailActivation@fa49800]" started-at="2022-07-07T11:34:54 NZST" name="setup" finished-at="2022-07-07T11:35:01 NZST" duration-ms="6771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginAndLottoDips(java.lang.String,java.lang.String)[pri:1, instance:com.mylotto.qa.testcases.LottoDips@fba92d3]" started-at="2022-06-14T16:26:38 NZST" name="LoginAndLottoDips" data-provider="getTestData" finished-at="2022-06-14T16:26:58 NZST" duration-ms="19888" status="FAIL">
+        <test-method signature="SearchAndActivation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.mylotto.qa.testcases.EmailActivation@fa49800]" started-at="2022-07-07T11:35:01 NZST" name="SearchAndActivation" data-provider="getTestData" finished-at="2022-07-07T11:35:39 NZST" duration-ms="38413" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[a.robinson@xtra.co.nz]]>
+                <![CDATA[test5@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Password1]]>
+                <![CDATA[Subramani]]>
               </value>
             </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LNZLT079', ip: '192.168.194.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\sayyanar\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c0cc29ee199a8390dec519647f0fca2e
-*** Element info: {Using=name, value=email}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LNZLT079', ip: '192.168.194.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\sayyanar\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c0cc29ee199a8390dec519647f0fca2e
-*** Element info: {Using=name, value=email}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at com.sun.proxy.$Proxy11.findElement(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy15.click(Unknown Source)
-at com.mylotto.qa.pages.Lotto.lottoLuckyDips(Lotto.java:74)
-at com.mylotto.qa.testcases.LottoDips.LoginAndLottoDips(LottoDips.java:45)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginAndLottoDips -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mylotto.qa.testcases.LottoDips@fba92d3]" started-at="2022-06-14T16:26:58 NZST" name="tearDown" finished-at="2022-06-14T16:26:59 NZST" duration-ms="1001" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mylotto.qa.testcases.LottoDips@fba92d3]" started-at="2022-06-14T16:26:59 NZST" name="setup" finished-at="2022-06-14T16:27:05 NZST" duration-ms="5757" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method retried="true" signature="LoginAndLottoDips(java.lang.String,java.lang.String)[pri:1, instance:com.mylotto.qa.testcases.LottoDips@fba92d3]" started-at="2022-06-14T16:27:05 NZST" name="LoginAndLottoDips" data-provider="getTestData" finished-at="2022-06-14T16:27:25 NZST" duration-ms="20251" status="SKIP">
-          <params>
-            <param index="0">
+            <param index="2">
               <value>
-                <![CDATA[brookswhanau@xtra.co.nz]]>
+                <![CDATA[Ayyanar]]>
               </value>
             </param>
-            <param index="1">
+            <param index="3">
               <value>
                 <![CDATA[Password1]]>
               </value>
             </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LNZLT079', ip: '192.168.194.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\sayyanar\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 72237d158ec84edc63a68a23f51fc08b
-*** Element info: {Using=name, value=email}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LNZLT079', ip: '192.168.194.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\sayyanar\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 72237d158ec84edc63a68a23f51fc08b
-*** Element info: {Using=name, value=email}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at com.sun.proxy.$Proxy11.findElement(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy15.click(Unknown Source)
-at com.mylotto.qa.pages.Lotto.lottoLuckyDips(Lotto.java:74)
-at com.mylotto.qa.testcases.LottoDips.LoginAndLottoDips(LottoDips.java:45)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginAndLottoDips -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mylotto.qa.testcases.LottoDips@fba92d3]" started-at="2022-06-14T16:27:25 NZST" name="tearDown" finished-at="2022-06-14T16:27:26 NZST" duration-ms="980" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mylotto.qa.testcases.LottoDips@fba92d3]" started-at="2022-06-14T16:27:26 NZST" name="setup" finished-at="2022-06-14T16:27:32 NZST" duration-ms="5828" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="LoginAndLottoDips(java.lang.String,java.lang.String)[pri:1, instance:com.mylotto.qa.testcases.LottoDips@fba92d3]" started-at="2022-06-14T16:27:32 NZST" name="LoginAndLottoDips" data-provider="getTestData" finished-at="2022-06-14T16:27:52 NZST" duration-ms="20215" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[brookswhanau@xtra.co.nz]]>
-              </value>
-            </param>
-            <param index="1">
+            <param index="4">
               <value>
                 <![CDATA[Password1]]>
               </value>
             </param>
+            <param index="5">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[`1964]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4123322]]>
+              </value>
+            </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LNZLT079', ip: '192.168.194.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\sayyanar\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58515}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 314da902fe62c7306bbd02a3879d6e76
-*** Element info: {Using=name, value=email}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LNZLT079', ip: '192.168.194.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\sayyanar\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58515}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 314da902fe62c7306bbd02a3879d6e76
-*** Element info: {Using=name, value=email}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at com.sun.proxy.$Proxy11.findElement(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy15.click(Unknown Source)
-at com.mylotto.qa.pages.Lotto.lottoLuckyDips(Lotto.java:74)
-at com.mylotto.qa.testcases.LottoDips.LoginAndLottoDips(LottoDips.java:45)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginAndLottoDips -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mylotto.qa.testcases.LottoDips@fba92d3]" started-at="2022-06-14T16:27:52 NZST" name="tearDown" finished-at="2022-06-14T16:27:53 NZST" duration-ms="992" status="PASS">
+        </test-method> <!-- SearchAndActivation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mylotto.qa.testcases.EmailActivation@fa49800]" started-at="2022-07-07T11:35:39 NZST" name="tearDown" finished-at="2022-07-07T11:35:41 NZST" duration-ms="1231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.mylotto.qa.testcases.LottoDips -->
+      </class> <!-- com.mylotto.qa.testcases.EmailActivation -->
     </test> <!-- Regression -->
   </suite> <!-- MyLotto TestNG Framework -->
 </testng-results>

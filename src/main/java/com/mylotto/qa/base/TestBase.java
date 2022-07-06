@@ -1,3 +1,4 @@
+
 package com.mylotto.qa.base;
 
 import java.io.FileInputStream;
@@ -60,10 +61,39 @@ public class TestBase {
 	    driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 	    driver.get(prop.getProperty("url"));
 	    
-
 	}
 	
+	//IGT Control 
 	
+	public static void initializationIGTControl() throws IOException {
+		
+		String browserName = prop.getProperty("browser");
+			
+		if(browserName.equals("chrome")) {
+			System.setProperty("webdriver.chrome.driver","C:/Users/sayyanar/eclipse-workspace/Selenium/chromedriver_win32/chromedriver.exe");
+		    driver = new ChromeDriver(); //global variable initialized here, we don't need to use WebDriver keyword again
+
+		}
+		else if (browserName.equals("firefox")) {
+			System.out.println("Sorry Not available yet");
+		}
+		
+		e_driver = new EventFiringWebDriver(driver);
+		// Now create object of EventListerHandler to register it with EventFiringWebDriver
+		eventListener = new WebEventListener();
+		e_driver.register(eventListener);
+		driver = e_driver;
+		
+		
+	    driver.manage().window().maximize();  //maximize window
+	    driver.manage().deleteAllCookies();   // delete all cookies
+	    
+		//dynamic wait which means it wont wait for 20 or 10 seconds all the time, if all the elements are available then it will continue
+	    driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);	    
+	    driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+	    driver.get(prop.getProperty("igturl"));
+	    
+	}
 	
 	
 	

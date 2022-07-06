@@ -23,8 +23,8 @@ public class TestUtil extends TestBase {
 		super();
 	}
 
-	public static long PAGE_LOAD_TIMEOUT = 20;
-	public static long IMPLICIT_WAIT = 10;
+	public static long PAGE_LOAD_TIMEOUT = 50;
+	public static long IMPLICIT_WAIT = 30;
 	
 	public static String TESTDATA_SHEET_PATH = "/Users/sayyanar/eclipse-workspace/MyLotto/src/main/java/com/mylotto/qa/testdata/TestData.xlsx";
 	

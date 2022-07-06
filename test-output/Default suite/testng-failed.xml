@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mylotto.qa.testcases.LottoDips">
+      <class name="com.mylotto.qa.testcases.EmailActivation">
         <methods>
           <include name="tearDown"/>
+          <include name="SearchAndActivation" invocation-numbers="0"/>
           <include name="setup"/>
-          <include name="LoginDetails" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.mylotto.qa.testcases.LottoDips -->
+      </class> <!-- com.mylotto.qa.testcases.EmailActivation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

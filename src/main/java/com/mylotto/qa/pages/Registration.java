@@ -2,6 +2,7 @@ package com.mylotto.qa.pages;
 
 import java.io.IOException;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -94,7 +95,8 @@ public class Registration extends TestBase {
 		Select p_city = new Select(driver.findElement(By.name("city")));
 		p_city.selectByVisibleText("Marlborough");
 		 Thread.sleep(1000);
-		 
-
+		//driver.findElement(By.cssSelector(".lnzfdn-button.lnzfdn-button--fill")).click();
+		 driver.findElement(By.xpath("//span[contains(text(),'Sign up')]")).click();
 	}
+	
 }

@@ -11,6 +11,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.mylotto.qa.base.TestBase;
+import com.mylotto.qa.pages.IGTControlActivationCode;
 import com.mylotto.qa.pages.Registration;
 import com.mylotto.qa.util.TestUtil;
 
@@ -49,6 +50,20 @@ String sheetName = "Reg"; //Reg is the name of the first sheet given in the Test
 		System.out.println(cpassword +"  via csv");
 		System.out.println(mobile +"  via csv");
 		Thread.sleep(2000);
+	}
+	
+	// IGT Control Login
+	public void Activation() throws IOException, InterruptedException {
+		IGTControlActivationCode igtc = new IGTControlActivationCode();
+		igtc.LoginForm();
+	}
+	
+	// IGT Control Player Search
+	public void SearchAndActivation(String email) throws InterruptedException, IOException {
+		
+		IGTControlActivationCode igtc = new IGTControlActivationCode();
+		igtc.PlayerSearch(email);
+
 	}
 	
 

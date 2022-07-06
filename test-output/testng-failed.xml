@@ -3,17 +3,17 @@
 <suite name="Failed suite [MyLotto TestNG Framework]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.mylotto.qa.extentreport.ExtentReportMyLotto"/>
-    <listener class-name="com.mylotto.qa.util.Transformer"/>
+    <listener class-name="com.mylotto.qa.util.RetryLogic"/>
   </listeners>
   <test thread-count="5" name="Regression(failed)">
     <classes>
-      <class name="com.mylotto.qa.testcases.LottoDips">
+      <class name="com.mylotto.qa.testcases.EmailActivation">
         <methods>
           <include name="tearDown"/>
-          <include name="LoginAndLottoDips" invocation-numbers="0 0 1 1"/>
+          <include name="SearchAndActivation" invocation-numbers="1 1"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.mylotto.qa.testcases.LottoDips -->
+      </class> <!-- com.mylotto.qa.testcases.EmailActivation -->
     </classes>
   </test> <!-- Regression(failed) -->
 </suite> <!-- Failed suite [MyLotto TestNG Framework] -->

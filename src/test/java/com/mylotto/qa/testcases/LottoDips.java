@@ -45,18 +45,6 @@ String sheetName = "Players"; //Players is the name of the sheet available in th
 		lot.lottoLuckyDips();
 		lot.lottoTripleDips();
 	}
-	
-	/*
-	@Test(priority=2)
-	
-	public void LottoBuyADip() throws IOException, InterruptedException
-	{
-		Lotto lot = new Lotto();
-		lot.lottoDips();
-		
-	}
-	*/
-	
 
 	@AfterMethod
 	public void tearDown() {

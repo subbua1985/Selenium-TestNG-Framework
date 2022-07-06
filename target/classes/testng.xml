@@ -13,7 +13,8 @@
   <test name="Regression">
     <classes>
       <class name="com.mylotto.qa.testcases.RegistrationMyLotto"/>
-      <class name="com.mylotto.qa.testcases.LottoDips"/>
+      <class name="com.mylotto.qa.testcases.EmailActivation"/>
+      <!-- <class name="com.mylotto.qa.testcases.LottoDips"/> -->
     </classes>
   </test>
 </suite>
